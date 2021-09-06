@@ -50,6 +50,10 @@ a:hover{
 	opacity: 0.8;
 }
 
+.container{
+	/*max-width: 2080px;*/
+}
+
 .smaller_section{
 	min-height: 5vh;
 	font-size: 10px;
@@ -69,7 +73,7 @@ a:hover{
 
 .first_section{
 	min-height: 65vh;
-	background-image: url(images/marg_pic.png);
+	background-image: url(images/margarita.jpg);
 	background-size: cover;
 
 
@@ -83,7 +87,35 @@ a:hover{
 	display: flex;
 	margin-top: 30px;
 	margin-bottom: 30px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
 
+
+.item-a {
+  grid-column: 1;
+  grid-row: 1;
+  width:  66%;
+}
+
+.item-b {
+  grid-column: 3/ span 1;
+  grid-row: 1;
+  width: 33%;
+}
+
+
+.item-c {
+  grid-column: 1/ span 1;
+  grid-row: 2;
+  width: 33%;
+}
+
+
+.item-d {
+  grid-column: 2/ span 2;
+  grid-row: 2;
+  width:  66%;
 }
 
 .third_section{
