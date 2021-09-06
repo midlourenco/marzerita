@@ -1,9 +1,7 @@
-body{
-	color: whitesmoke;
-	background-color: black;
-	margin-left: 0;
-	margin-right: 0;
-}
+
+@font-face { font-family: avenir-it; src: url('avenir/AvenirNextLTPro-It.otf') } 
+@font-face { font-family: avenir-reg; src: url('avenir/AvenirNextLTPro-Regular.otf') } 
+@font-face { font-family: avenir-b; src: url('avenir/AvenirNextLTPro-Bold.otf') } 
 
 h5{
 	color: #c0f235;
@@ -16,12 +14,12 @@ h5{
 
 
 h1{
-	font-family: 'Urbanist', sans-serif;
+	font-family: 'avenir-reg', sans-serif;
 	font-size: 50px;
 	text-shadow: 1px lightgray;
 	letter-spacing: 7px;
 	margin-bottom: 15px;
-	margin-top: -10px;
+	margin-top: -5px;
 	padding:0 px;
 	margin-left: 40px;
 	margin-right: 40px;
@@ -39,6 +37,14 @@ h3{
 	color: gray;
 	font-size: 15px;
 
+}
+
+body{
+	color: whitesmoke;
+	background-color: black;
+	margin-left: 0;
+	margin-right: 0;
+	font-family:'avenir-reg', sans-serif;
 }
 
 a{
@@ -122,16 +128,16 @@ a:hover{
 
 
 .third_section{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 50px;
+	font-family: 'avenir-reg', sans-serif;
+	font-size: 40px;
 	text-align: center;
-	text-shadow: 1px 1px 1px lightgrey;
+	text-shadow: 0.5px 0.5px 0.5px lightgrey;
 	letter-spacing: 2px;
 	margin-top: 15px;
 	margin-bottom: 30px;
 	margin-left: 40px;
 	margin-right: 40px;
-	font-style: italic;
+	/*font-style: italic;*/
 	color: lightgrey;
 }
 
@@ -140,18 +146,18 @@ a:hover{
 }
 
 .grey_section{
-	font-family: 'Inter', sans-serif;
+	font-family: 'avenir-it', sans-serif;
 	font-size: 40px;
-	letter-spacing: 2px;
+	letter-spacing: 2 px;
 	min-height: 15vh;
-	margin-top: 15px;
-	margin-bottom: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	align-items: center;
 	justify-content: center;
 	display: flex;
 	text-align: center;
 	background-color: #4d494b;
-	font-style: italic;
+	/*font-style: italic;*/
 
 }
 
