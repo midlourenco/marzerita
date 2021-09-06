@@ -10,6 +10,7 @@ h5{
 	margin-bottom: 0 px;
 	margin-left: 40px;
 	margin-right: 40px;
+	margin-top: 60px;
 	padding:0 px
 }
 
@@ -20,7 +21,7 @@ h1{
 	text-shadow: 1px lightgray;
 	letter-spacing: 7px;
 	margin-bottom: 15px;
-	margin-top: 0;
+	margin-top: -10px;
 	padding:0 px;
 	margin-left: 40px;
 	margin-right: 40px;
@@ -73,9 +74,9 @@ a:hover{
 
 .first_section{
 	min-height: 65vh;
-	background-image: url(images/margarita.jpg);
+	background-image: url(images/margarita2.jpg);
 	background-size: cover;
-
+	background-position: top;
 
 }
 
@@ -85,50 +86,57 @@ a:hover{
 	align-items: center;
 	flex-direction: column;
 	display: flex;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 50px;
+	margin-bottom: 0px;
 	margin-left: 10%;
 	margin-right: 10%;
 }
 
+.image_row{
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: -20px;
+}
 
 .item-a {
-  grid-column: 1;
-  grid-row: 1;
-  width:  66%;
+  width:  65%;
+  height: 91%;
 }
 
 .item-b {
-  grid-column: 3/ span 1;
-  grid-row: 1;
-  width: 33%;
+  width: 31%;
+  height: 91%;
 }
 
 
 .item-c {
-  grid-column: 1/ span 1;
-  grid-row: 2;
-  width: 33%;
+  width: 28%;
+ 	height: 90%;
 }
 
 
 .item-d {
-  grid-column: 2/ span 2;
-  grid-row: 2;
-  width:  66%;
+  width:  68%;
 }
+
 
 .third_section{
 	font-family: 'Montserrat', sans-serif;
-	font-size: 40px;
+	font-size: 50px;
 	text-align: center;
 	text-shadow: 1px 1px 1px lightgrey;
+	letter-spacing: 2px;
 	margin-top: 15px;
 	margin-bottom: 30px;
 	margin-left: 40px;
 	margin-right: 40px;
 	font-style: italic;
 	color: lightgrey;
+}
+
+.recipt{
+	width: 90%;
 }
 
 .grey_section{
