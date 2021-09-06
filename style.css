@@ -1,7 +1,8 @@
 body{
 	color: whitesmoke;
 	background-color: black;
-	margin: 0;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 h5{
@@ -9,16 +10,16 @@ h5{
 	margin-bottom: 0 px;
 	margin-left: 40px;
 	margin-right: 40px;
+	padding:0 px
 }
 
 
 h1{
-/*	font-size: 60px;
-font-family:
-*/
-	text-shadow: 1px 1px 3px lightgray;
+	font-family: 'Open Sans', sans-serif;
+	text-shadow: 1px 1px 2px lightgray;
 	margin-bottom: 15px;
 	margin-top: 0;
+	padding:0 px;
 	margin-left: 40px;
 	margin-right: 40px;
 }
@@ -26,11 +27,17 @@ h3{
 /*	font-size: 60px;
 */
 	text-shadow: 0px 0px 3px lightslategrey;
-	text-shadow: 0.8;
+	text-shadow: 0.1;
 	margin-bottom: 15px;
 	margin-left: 40px;
 	margin-right: 40px;
 
+}
+
+a{
+	text-decoration: none;
+	color: ghostwhite;
+	padding-top: 40 px;
 }
 
 .smaller_section{
@@ -40,6 +47,7 @@ h3{
 	background-repeat: no-repeat;
 	background-size: 30px;
 	text-align: right;
+	padding-top: 10 px;
 	margin-left: 40px;
 	margin-right: 10px;
 }
@@ -68,6 +76,7 @@ h3{
 }
 
 .third_section{
+	font-family: 'Inter', sans-serif;
 	font-size: 50px;
 	text-align: center;
 	text-shadow: 2px 2px 4px lightslategrey;
@@ -78,7 +87,9 @@ h3{
 }
 
 .grey_section{
-	font-size: 50px;
+	font-family: 'Inter', sans-serif;
+	font-size: 40px;
+	letter-spacing: 2px;
 	min-height: 15vh;
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -86,9 +97,7 @@ h3{
 	justify-content: center;
 	display: flex;
 	text-align: center;
-	background-color: darkgrey;
-	margin-left: 40px;
-	margin-right: 40px;
+	background-color: #4d494b;
 	font-style: italic;
 
 }
